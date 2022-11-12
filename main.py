@@ -4,6 +4,7 @@ class User:
     # class 내부의 local variable 값
     count = 0
 
+    #special method - initialize
     def __init__(self, user_id, username, password):
         '''initialize attributes는 무엇인가'''
         self.id = user_id
